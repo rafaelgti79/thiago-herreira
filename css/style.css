@@ -1,0 +1,208 @@
+    aside{
+        display: none;
+    }
+
+    :root{
+        --bg-color: FFF;;
+        --title-color: #32312d;
+        --paragrafo-color: #727171db;
+        --text-color: #008248;
+        --copy-text-color: #6c6a6ae2;
+        --button-color: #09633a;
+        --container-children: #d4e9e2;
+        --span-color:#008248;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .navbar{
+        padding: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        box-shadow: 1px 2px 3px #0000;
+    }
+
+    .navbar-left img{
+        width: 50px;
+        margin-right: 20px;
+
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .navbar-menu{
+        display: flex;
+    }
+
+    .navbar-menu li{
+        list-style: none;
+        margin: 10px;
+    }
+
+    .navbar-menu li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 800;
+        color: var(--title-color)
+    }
+
+    .navbar-menu li a :houver{
+        color: var(--button-color)
+    }
+
+    .navbar-left, .navbar-righ{
+        display:flex ;
+        align-items: center;
+    }
+
+    .navbar-left > *,
+    .navbar-righ>*{
+        margin: 8px;
+    }
+
+    .stories{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 10rem;
+        cursor: pointer;
+    }
+
+    .stories .stories-paragrafo{
+        font-size: 8px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .stories-text{
+        font-size: 16.99px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .container-fluid{
+        max-width: 1560px;
+        width: 100%;
+        margin: auto;
+        margin-top: 0;
+    }
+
+   .container-banner-desktop-image, .banner-desktop-image{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    height: auto;
+    text-align: center;
+   }
+
+   .container-banner-mobile-image{
+    display: none;
+   }
+
+   .container-fluid-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 2rem;
+    background-color: var(--container-children);
+   }
+
+   .container-fluid-info-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+   }
+
+   .container-fluid-info-area 
+   .container-fluid-info-area-p{
+    font-weight: 550;
+    color: var(--title-color);
+    letter-spacing: 1px;
+   }
+
+   .container-fluid-button-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 20px;
+   }
+
+   .container-fluid-button-info button{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #555;
+    width: 125px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0,.3);
+    transition: background 0.3s, transforme 0.3s, box-shadow 0.4;
+    cursor: pointer;
+   }
+
+   .container-fluid-button-info button:hover{
+    color: var(--span-color);
+    box-shadow: 0px 2px 5px rgba(0,0,0,0,.3);
+    transform: scale(0.85);
+   }
+
+   .container-fluid-button-info p{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--title-color);
+   }
+
+   .container-fluid-pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 0;
+    background-color: var(--container-children);
+
+   }
+
+   .container-pictures-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+   }
+   .container-pictures-info-image{
+    flex: 1;
+
+   }
+
+   .container-fluid-pictures img{
+    width: 100%;
+    height: auto;
+   }
+
+   .container-pictures-info .container-pictures-info-h4 .container-pictures-info-h3{
+    padding: 18.99px;
+    font-size: 20px;
+   }
