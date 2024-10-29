@@ -62,15 +62,6 @@
         color: var(--button-color)
     }
 
-    .navbar-left, .navbar-righ{
-        display:flex ;
-        align-items: center;
-    }
-
-    .navbar-left > *,
-    .navbar-righ>*{
-        margin: 8px;
-    }
 
  
    .logo-heer{
@@ -99,14 +90,15 @@
     width: 100%;
     height: 300px;
     display: flex;
-    margin: 50px auto;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    
     
    }
 
    .elemento{
-    width: 100px;
-    height: 30%;
+    width: 80px;
+    height: 80px;
     border: 5px solid #32312d;
     border-radius: 60px;
     
