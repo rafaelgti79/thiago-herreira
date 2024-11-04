@@ -476,13 +476,13 @@ footer .line-footer p a {
     }
 }
 
-.logo-heer{
-    width: 100%;
+ .top-logo{
+    width: 150%;
     height: 150px;
-    margin: auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: end;
+    
 }
 
 @media screen and (max-widt: 1020px){
