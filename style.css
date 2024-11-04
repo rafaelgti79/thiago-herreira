@@ -257,7 +257,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00FF08;
+    background-color: white;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -266,7 +266,7 @@ section.sobre .flex {
 
 /* ESTILO DO PORTFÓLIO */
 section.portfolio {
-    padding: 0px 4%;
+    padding: 50px 4%;
     
 }
 
@@ -351,7 +351,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00FF08;
+    background-color: white;
     color: #000;
     font-weight: 700;
     cursor: pointer;
