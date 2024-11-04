@@ -38,7 +38,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00FF08;
+    color: black;
 }
 
 button:hover,
@@ -150,7 +150,7 @@ header nav.menu-desktop ul li {
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site {
-    padding: 40px 4%;
+    padding: 80px 4%;
 }
 
 section.topo-do-site .flex {
@@ -166,7 +166,7 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00FF08;
+    color: black;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -243,7 +243,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: #00FF08;
+    color: black;
     display: block;
 }
 
@@ -374,11 +374,11 @@ footer .line-footer {
 }
 
 .borda {
-    border-top: 2px solid #00FF08;
+    border-top: 2px solid black;
 }
 
 footer .line-footer p i {
-    color: #00FF08;
+    color: black;
     font-size: 22px;
 }
 
