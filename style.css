@@ -482,7 +482,7 @@ footer .line-footer p a {
     margin: auto;
     display: flex;
     justify-content: space-evenly;
-    align-items: end;
+    align-items: center;
 }
 
 @media screen and (max-widt: 1020px){
