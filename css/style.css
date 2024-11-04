@@ -1,21 +1,16 @@
-       body{
+    
+    body{
         
         height: 100vh;
+        
     }
 
-    :root{
-        --bg-color: FFF;;
-        --title-color: #32312d;
-        --paragrafo-color: #727171db;
-        --text-color: #008248;
-        --copy-text-color: #6c6a6ae2;
-        --button-color: #09633a;
-        --container-children: #d4e9e2;
-        --span-color:#008248;
-    }
+    
 
     *{
-       
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;       
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -29,25 +24,12 @@
         box-shadow: 1px 2px 3px #0000;
     }
 
-    .navbar-left img{
-        width: 50px;
-        margin-right: 20px;
-
+    .navbar-container{
+        max-width: 1280px;
+        margin: 0 auto;
     }
 
-    .hamburger{
-        display: none;
-    }
-
-    .navbar-menu{
-        display: flex;
-    }
-
-    .navbar-menu li{
-        list-style: none;
-        margin: 10px;
-    }
-
+          
     .navbar-menu li a{
         text-decoration: none;
         text-transform: uppercase;
@@ -67,28 +49,16 @@
    .logo-heer{
     width: 100%;
     height: 250px;
-    
     margin: auto;
-    display: block;
+    display: flex;
     justify-content: space-evenly;
-    
-  
+      
    }
 
-  
-   .logo-ite{
-    width: 40%;
-    height: 250px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-       
-    
-   }
 
     .container-iten{
     width: 100%;
-    height: 300px;
+    height: 250px;
     display: flex;
     justify-content: space-around;
     flex-flow: column wrap;
@@ -103,3 +73,4 @@
     border-radius: 60px;
     
    }
+
